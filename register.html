@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/registeration_style.css">
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <a target="_blank" href="second_page.html">
+            <li>Road Map</li>
+        </a>
+        <a href="register.html">
+            <li>Registeration Form</li>
+        </a>
+            <a href="https://iti.gov.eg/" target="_blank">
+                <li>Contact</li>
+            </a>
+        </ul>
+        <div class="img_logo">
+        <img src="images/ITI_logo.png" alt="logo">
+    </div>
+    </div>
+
+    <form action="#" method="POST">
+        <h3>Register - Create Account</h3>
+        <p>Field marked with <span class="star">*</span> are compulsory fields</p>
+        <div>
+        <label for=""><span class="star">*</span>Your Name</label>
+        <input type="text">
+    </div>
+        <div>
+        <label for=""><span class="star">*</span>E-mail ID</label>
+        <input type="email">
+    </div>
+    <div>
+        <label for="">Alternate E-mail ID</label>
+        <input type="email">
+    </div>
+
+    <div>
+        <label for="">Mobile Phone</label>
+        <input type="number">
+    </div>
+
+    <div class="phone">
+        <div>
+        <label for="">Mobile Phone</label>
+        </div>
+        <div>
+        <div>Country-Code - City-Code - Phone Number</div>
+        <input style="width: 90px;" type="number">
+        <input style="width: 80px;" type="number">
+        <input style="width: 80px;" type="number">
+    </div>
+        
+    </div>
+
+    <div>
+        <label class="postal" for=""><span class="star">*</span>Your Postal Address</label>
+        <textarea name="textArea" id="" cols="30" rows="2"></textarea>
+    </div>
+    <div>
+        <label for="country"><span class="star">*</span>Country</label>
+        <select name="country" id="country">
+            <option selected disabled>------Select One------</option>
+            <option value="Egypt">Egypt</option>
+            <option value="Iraq">Iraq</option>
+            <option value="Italy">Italy</option>
+        </select>
+    </div>
+    <div>
+
+    <label for="pass"><span class="star">*</span>Password</label>
+    <input type="password">
+</div>
+
+    <div>
+    <label for="rePass"><span class="star">*</span>Re -Enter Passowrd</label>
+    <input type="password">
+</div>
+<center>
+ <input type="checkbox" style="margin: -130px;">
+ <span>I Accept The <span style="color: blue;"> <b> <u> Terms Of Use</u> </b></span></span>
+</center>
+<center>
+<button>Continue</button>
+ <button>Continue</button>
+</center>
+    </form>
+</body>
+</html>
